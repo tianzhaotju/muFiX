@@ -1,0 +1,10 @@
+def reverse_delete(s,c):
+    """Task
+    We are given two strings s and c, you have to deleted all the characters in s that are equal to any character in c then check if the result string is palindrome.
+    A string is called palindrome if it reads the same backward as forward.
+    You should return a tuple containing the result string and True/False for the check.
+    """
+
+(1) assert reverse_delete("abcde", "ae") == ('bcd',False)
+(2) assert reverse_delete("abcdef", "b") == ('acdef',False)
+(3) assert reverse_delete("abcdedcba", "ab") == ('cdedc',True)

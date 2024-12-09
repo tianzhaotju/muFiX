@@ -1,0 +1,9 @@
+def int_to_mini_roman(number):
+    """
+    Given a positive integer, obtain its roman numeral equivalent as a string, and return it in lowercase.
+    Restrictions: 1 <= num <= 1000
+    """
+
+(1) assert int_to_mini_roman(19) == 'xix'
+(2) assert int_to_mini_roman(152) == 'clii'
+(3) assert int_to_mini_roman(426) == 'cdxxvi'

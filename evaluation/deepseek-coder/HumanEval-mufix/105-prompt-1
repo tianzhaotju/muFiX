@@ -1,0 +1,8 @@
+def by_length(arr):
+    """
+    Given an array of integers, sort the integers that are between 1 and 9 inclusive, reverse the resulting array, and then replace each digit by its corresponding name from "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine".
+    """
+
+(1) assert by_length([2, 1, 1, 4, 5, 8, 2, 3]   ) == ["Eight", "Five", "Four", "Three", "Two", "Two", "One", "One"]
+(2) assert by_length([]) == []
+(3) assert by_length([1, -1 , 55] ) == ['One']

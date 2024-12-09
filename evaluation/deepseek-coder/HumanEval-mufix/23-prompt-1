@@ -1,0 +1,6 @@
+def strlen(string: str) -> int:
+    """ Return length of given string
+    """
+
+(1) assert strlen('') == 0
+(2) assert strlen('abc') == 3

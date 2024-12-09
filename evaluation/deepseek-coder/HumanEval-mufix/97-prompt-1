@@ -1,0 +1,9 @@
+def multiply(a, b):
+    """Complete the function that takes two integers and returns the product of their unit digits.
+    Assume the input is always valid.
+    """
+
+(1) assert multiply(148, 412) == 16
+(2) assert multiply(19, 28) == 72
+(3) assert multiply(2020, 1851) == 0
+(4) assert multiply(14,-15) == 20

@@ -1,0 +1,7 @@
+def how_many_times(string: str, substring: str) -> int:
+    """ Find how many times a given substring can be found in the original string. Count overlaping cases.
+    """
+
+(1) assert how_many_times('', 'a') == 0
+(2) assert how_many_times('aaa', 'a') == 3
+(3) assert how_many_times('aaaa', 'aa') == 3

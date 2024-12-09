@@ -1,0 +1,6 @@
+python==3.8
+torch==2.1.0+cu121
+openai==0.27.8
+fastchat==0.2.18
+evalplus=0.1.6
+humaneval

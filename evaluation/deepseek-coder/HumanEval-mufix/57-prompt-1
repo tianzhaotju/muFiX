@@ -1,0 +1,7 @@
+def monotonic(l: list):
+    """Return True is list elements are monotonically increasing or decreasing.
+    """
+
+(1) assert monotonic([1, 2, 4, 20]) == True
+(2) assert monotonic([1, 20, 4, 10]) == False
+(3) assert monotonic([4, 1, 0, -10]) == True

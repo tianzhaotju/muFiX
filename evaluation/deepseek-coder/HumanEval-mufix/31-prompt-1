@@ -1,0 +1,11 @@
+def is_prime(n):
+    """Return true if a given number is prime, and false otherwise.
+    """
+
+(1) assert is_prime(6) == False
+(2) assert is_prime(101) == True
+(3) assert is_prime(11) == True
+(4) assert is_prime(13441) == True
+(5) assert is_prime(61) == True
+(6) assert is_prime(4) == False
+(7) assert is_prime(1) == False

@@ -1,0 +1,12 @@
+def cycpattern_check(a , b):
+    """
+    You are given 2 words.
+    You need to return True if the second word or any of its rotations is a substring in the first word
+    """
+
+(1) assert cycpattern_check("abcd","abd") == False
+(2) assert cycpattern_check("hello","ell") == True
+(3) assert cycpattern_check("whassup","psus") == False
+(4) assert cycpattern_check("abab","baa") == True
+(5) assert cycpattern_check("efef","eeff") == False
+(6) assert cycpattern_check("himenss","simen") == True

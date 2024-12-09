@@ -1,0 +1,11 @@
+def digitSum(s):
+    """Task
+    Write a function that takes a string as input and returns the sum of the upper characters only' ASCII codes.
+    """
+
+(1) assert digitSum("") == 0
+(2) assert digitSum("abAB") == 131
+(3) assert digitSum("abcCd") == 67
+(4) assert digitSum("helloE") == 69
+(5) assert digitSum("woArBld") == 131
+(6) assert digitSum("aAaaaXa") == 153

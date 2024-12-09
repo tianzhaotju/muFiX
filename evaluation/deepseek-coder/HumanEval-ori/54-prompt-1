@@ -1,0 +1,11 @@
+def same_chars(s0: str, s1: str):
+    """
+    Check if two words have the same characters.
+    """
+
+(1) assert same_chars('eabcdzzzz', 'dddzzzzzzzddeddabc') == True
+(2) assert same_chars('abcd', 'dddddddabc') == True
+(3) assert same_chars('dddddddabc', 'abcd') == True
+(4) assert same_chars('eabcd', 'dddddddabc') == False
+(5) assert same_chars('abcd', 'dddddddabce') == False
+(6) assert same_chars('eabcdzzzz', 'dddzzzzzzzddddabc') == False

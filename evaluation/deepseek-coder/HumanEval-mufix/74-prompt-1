@@ -1,0 +1,11 @@
+def total_match(lst1, lst2):
+    '''
+    Write a function that accepts two lists of strings and returns the list that has total number of chars in the all strings of the list less than the other list.
+    If the two lists have the same number of chars, return the first list.
+    '''
+
+(1) assert total_match([], []) == []
+(2) assert total_match(['hi', 'admin'], ['hI', 'Hi']) == ['hI', 'Hi']
+(3) assert total_match(['hi', 'admin'], ['hi', 'hi', 'admin', 'project']) == ['hi', 'admin']
+(4) assert total_match(['hi', 'admin'], ['hI', 'hi', 'hi']) == ['hI', 'hi', 'hi']
+(5) assert total_match(['4'], ['1', '2', '3', '4', '5']) == ['4']

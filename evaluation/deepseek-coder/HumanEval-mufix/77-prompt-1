@@ -1,0 +1,12 @@
+def iscube(a):
+    '''
+    Write a function that takes an integer a and returns True if this ingeger is a cube of some integer number.
+    Note: you may assume the input is always valid.
+    '''
+
+(1) assert iscube(1) == True
+(2) assert iscube(2) == False
+(3) assert iscube(-1) == True
+(4) assert iscube(64) == True
+(5) assert iscube(0) == True
+(6) assert iscube(180) == False

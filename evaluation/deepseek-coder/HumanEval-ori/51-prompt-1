@@ -1,0 +1,11 @@
+def remove_vowels(text):
+    """
+    remove_vowels is a function that takes string and returns string without vowels.
+    """
+
+(1) assert remove_vowels('') == ''
+(2) assert remove_vowels("abcdef\nghijklm") == 'bcdf\nghjklm'
+(3) assert remove_vowels('abcdef') == 'bcdf'
+(4) assert remove_vowels('aaaaa') == ''
+(5) assert remove_vowels('aaBAA') == 'B'
+(6) assert remove_vowels('zbcd') == 'zbcd'

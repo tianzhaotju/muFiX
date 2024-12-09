@@ -1,0 +1,19 @@
+ChatGPT,,HumanEval,HumanEval,HumanEval+,HumanEval+,HumanEval-ET,HumanEval-ET
+Approach,Repetitive Experiments,Pass@1,AvgPassRatio,Pass@1,AvgPassRatio,Pass@1,AvgPassRatio
+SCoT + Self-repair,experiment - 1,81.71%,84.48%,75.00%,76.28%,73.17%,84.66%
+SCoT + Self-repair,experiment - 2,81.10%,83.65%,75.00%,76.26%,73.17%,82.68%
+SCoT + Self-repair,experiment - 3,82.32%,84.33%,75.61%,77.18%,73.78%,84.09%
+muFiX,experiment - 1,90.24%,91.59%,80.49%,82.16%,79.88%,91.66%
+muFiX,experiment - 2,90.85%,92.41%,81.10%,82.77%,80.49%,92.39%
+muFiX,experiment - 3,89.63%,91.56%,81.10%,82.68%,79.88%,91.92%
+,,,,,,,
+,,,,,,,
+,,,,,,,
+DeepSeek-Coder,,HumanEval,HumanEval,HumanEval+,HumanEval+,HumanEval-ET,HumanEval-ET
+Approach,Repetitive Experiments,Pass@1,AvgPassRatio,Pass@1,AvgPassRatio,Pass@1,AvgPassRatio
+SCoT + Self-repair,experiment - 1,80.49%,84.15%,73.78%,75.77%,71.34%,86.10%
+SCoT + Self-repair,experiment - 2,79.88%,83.32%,73.17%,75.16%,70.73%,85.69%
+SCoT + Self-repair,experiment - 3,80.49%,84.19%,74.39%,76.15%,72.56%,86.45%
+muFiX,experiment - 1,83.54%,86.17%,78.66%,80.22%,75.00%,87.12%
+muFiX,experiment - 2,84.15%,86.78%,79.27%,80.83%,75.61%,87.76%
+muFiX,experiment - 3,84.76%,86.56%,79.27%,80.87%,76.22%,87.10%

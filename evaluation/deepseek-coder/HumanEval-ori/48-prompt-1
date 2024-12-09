@@ -1,0 +1,9 @@
+def is_palindrome(text: str):
+    """
+    Checks if given string is a palindrome
+    """
+
+(1) assert is_palindrome('') == True
+(2) assert is_palindrome('aba') == True
+(3) assert is_palindrome('aaaaa') == True
+(4) assert is_palindrome('zbcd') == False

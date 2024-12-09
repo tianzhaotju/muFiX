@@ -1,0 +1,9 @@
+def correct_bracketing(brackets: str):
+    """ brackets is a string of "<" and ">".
+    return True if every opening bracket has a corresponding closing bracket.
+    """
+
+(1) assert correct_bracketing("<") == False
+(2) assert correct_bracketing("<>") == True
+(3) assert correct_bracketing("<<><>>") == True
+(4) assert correct_bracketing("><<>") == False
