@@ -105,10 +105,6 @@ To evaluate the above generated code, run
 # Pass@k and AvgPassRatio
 cd muFiX/evaluation/;
 python test.py --model=deepseek-coder-mufix --dataset=humaneval --temperature=0.7;
-
-# CodeBLEU
-cd muFiX/evaluation/;
-python get_codeblue.py --model=deepseek-coder-mufix --params=0.1,0.1,0.4,0.4;
 ```
 
 
